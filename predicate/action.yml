@@ -1,6 +1,11 @@
+
 name: 'Build Provenance Predicate'
 description: 'Generate predicate for build provenance attestations'
 author: 'GitHub'
+
+              - název: Atest Build Provenance
+                použití: actions/attest-build-provenance@v1.3.3
+            
 
 outputs:
   predicate:
